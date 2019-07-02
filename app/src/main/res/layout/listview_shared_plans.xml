@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/aaaa"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Plan Name"
+            android:textColor="@color/Black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pname"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Plan Name"
+            android:textColor="@color/Black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bbbbb"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+            android:text="Plan Days"
+            android:textColor="@color/Black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pdays"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Plan Days"
+            android:textColor="@color/Black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cccc"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Calories / Day"
+            android:textColor="@color/Black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/pcalories"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Calories Per Day"
+            android:textColor="@color/Black"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:text="Download" />
+
+</LinearLayout>

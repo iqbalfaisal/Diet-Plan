@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Diet Plan</string>
+    <string-array name="activity_level">
+        <item>1.30(Very Light)</item>
+        <item>1.55(Light)</item>
+        <item>1.65(Moderate)</item>
+        <item>1.80(Heavy)</item>
+        <item>2.00(Very Heavy)</item>
+    </string-array>
+
+
+    <string-array name="Meal_type">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+
+
+    <string-array name="Days">
+        <item>Day 1</item>
+        <item>Day 2</item>
+        <item>Day 3</item>
+        <item>Day 4</item>
+        <item>Day 5</item>
+        <item>Day 6</item>
+        <item>Day 7</item>
+    </string-array>
+
+    <string-array name="add_food_category">
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Soup</item>
+        <item>Beverages</item>
+        <item>Dairy</item>
+        <item>Sea Food</item>
+        <item>Junk Food</item>
+        <item>Chicken</item>
+        <item>Mutton</item>
+        <item>Beef</item>
+        <item>Other</item>
+    </string-array>
+</resources>
